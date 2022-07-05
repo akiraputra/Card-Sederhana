@@ -1,0 +1,19 @@
+.card {
+  height: 500px;
+  width: 300px;
+  background: #ffe8ef;
+  color: #454444;
+  padding: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.text {
+  margin-top: 3.5em;
+  transition: 2s ease;
+  transform: translateY(100px);
+  opacity: 0;
+}
+.card:hover .text {
+  transform: translateY(-5px);
+  opacity: 1;
+}
